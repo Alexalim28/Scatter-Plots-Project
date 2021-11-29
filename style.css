@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.svg-container {
+  display: block;
+  margin: auto;
+}
+
+#title {
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#subtitle {
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.xAxis-label {
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.yAxis-label {
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tick line {
+  stroke: rgba(0, 0, 0, 0.2);
+}
+
+.tooltip {
+  position: absolute;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #f2f4ff;
+}
+
+legend {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
